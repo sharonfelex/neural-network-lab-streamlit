@@ -1,7 +1,9 @@
 # Neural Network Lab
 
-Streamlit frontend for the GAN, CNN, and RNN learning demos.
+A Streamlit frontend with three interactive neural-network demos:
 
-Streamlit Community Cloud entrypoint: `app.py`.
+- Conditional image GAN: generate square, circle, or triangle variations.
+- CNN: classify uploaded images as square, circle, or cross.
+- RNN: classify a short review as positive or negative.
 
-Dependencies are listed in `requirements.txt`. The CNN example images are in `cnn-samples/`.
+Deploy `app.py` on Streamlit Community Cloud. Dependencies are in `requirements.txt`. The full project folders, including separate FastAPI backends and browser frontends, are in `projects/`.
